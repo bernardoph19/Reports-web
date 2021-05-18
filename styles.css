@@ -1,18 +1,26 @@
 .report {
-  position: relative;
-  width: 770px;
-  height: 842px;
-  background: #ffffff;
+  width:  21.0cm;
+  height: 29.7cm;
+  background: #ffffff; 
+  align-items: center;
+  justify-content: center;
   margin: 0 auto;
-  padding:10px 10px;
-  border: rgba(0, 0, 0, 0.041) solid 1px;
+ 
 }
+
+.container{
+  margin: 15.5mm 1mm 16.5mm 1mm;
+}
+
+
 
 header {
   display: grid;
   grid-gap: 1rem;
-  grid-template-columns: 345px 265px 150px;
+  grid-template-columns: 345px 270px 160px;
   grid-template-rows: 28px 28px;
+  align-items: center;
+  justify-content: center;
 }
 
 header > div {
@@ -32,6 +40,7 @@ header > div img {
   align-items:center ;
   height: auto;
   display: flex;
+  justify-content: center;
   margin: 0 auto;
 }
 
@@ -229,15 +238,19 @@ header > div img {
 .compra {
   display: grid;
   grid-gap: 1rem;
+  align-content: center;
+  justify-content: center;
   align-items: center;
-  grid-template-columns: 500px 250px;
+  grid-template-columns: 510px 270px;
 }
 
 .cuotas{  
     display: grid;   
     grid-gap: 1rem;
+    justify-content: center;
     align-items: center;
-    grid-template-columns: 147px 600px;
+    align-content: center;
+    grid-template-columns: 170px 600px;
     padding-top: 1px;
     padding-bottom: 1px;
   
