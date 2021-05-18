@@ -1,0 +1,300 @@
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+.report {
+  position: relative;
+  width: 300px;
+  background: #ffffff;
+  margin: 0 auto;
+  padding: 10px 10px;
+  border: rgba(0, 0, 0, 0.041) solid 1px;
+}
+
+header > div {
+  color: white;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+/* logotipo*/
+header > div img {
+  width: 170px;
+  height: 100px;
+  object-fit: cover;
+  object-fit: fill;
+  align-items: center;
+  height: auto;
+  display: flex;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+ .ruc {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  padding-bottom: 2px;
+  color: #848484;
+}
+
+.empresa{
+  color: #474747;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-weight: 500;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 4px;
+  padding-bottom: 2px;
+ 
+}
+.direccicon{
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+display: flex;
+align-items: center;
+text-align: center;
+padding-bottom: 2px;
+letter-spacing: 0.02em;
+color: #848484;
+
+}
+.color{
+   font-weight: 500;
+   color: #474747;
+}
+
+
+.factura {
+  border-top: #9A9A9A solid 1px;
+  border-bottom: #9A9A9A solid 1px;
+  padding: 5px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  justify-content: center;
+  font-size: 13px;
+  text-align: center;
+  line-height: 12px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #272727;
+}
+
+
+.text-color{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 11px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.01em;
+  padding-left: 10px;
+  color: #848484;
+  }
+  
+  
+  .cols{
+    display: flex;
+    padding: 2px 0px 2px 0px;
+  }
+  
+  .flexcol{
+    flex-direction: column;
+  }
+  
+
+  
+.text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 12px;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  color: #0f0e0e;
+}
+
+.clientes{
+  padding-left: 55px;
+  text-transform: uppercase;
+}
+.direccions{
+  padding-left: 41px;
+}
+
+/* tabla */
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+  text-align: left;
+  color: #222222;
+  background: #ededed;
+  border: 0.5px solid #d6d6d6;
+  box-sizing: border-box;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 11px;
+  letter-spacing: 0.01em;
+}
+
+#customers td,
+#customers th {
+  border: 1px solid #ddd;
+  padding: 6px;  
+  text-align: center;  
+}
+
+#customers tr:nth-child(even) {
+  background-color: #ffffff;
+  color: #222222;
+  font-weight: normal;
+  text-align: center;  
+}
+
+#customers tr:hover {
+  background-color: #ddd;
+
+}
+
+#customers th {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  text-align: center;
+  color: #131212;
+  background: #ededed;
+  border: 0.5px solid #d6d6d6;
+  box-sizing: border-box;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 11px;
+  letter-spacing: 0.01em;
+}
+
+
+.flex-justify{
+  display: flex;
+  padding-top: 10px;
+  justify-content: space-between;
+
+}
+
+.emision{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size:12px;
+  line-height: 4px;
+  display: flex;
+  padding-bottom: 3px;
+  align-items: center;
+  letter-spacing: 0.01em;
+  
+  color: #474747;
+}
+.fecha{
+  color: #848484;
+  font-weight: 400;
+
+}
+
+.colorrss{
+  color: #c9c8c8;
+}
+
+.cuotas{  
+  display: grid;   
+  grid-gap: 1rem;
+  align-items: center;
+  grid-template-columns: 130px 150px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+
+
+}
+
+.qr{
+width: 128px;
+height: 115px;
+left: 4px;
+top: 236px;
+
+filter: drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.18));
+}
+
+.monto{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+  line-height: 12px;
+  display: flex;
+  color: #5E5E5E;
+}
+
+.foot{
+   justify-content: center;
+   align-content: center;
+   color: #848484;
+   padding-top: 12px;
+}
+.cuotas-text{
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+text-align: start;
+line-height: 11px;
+color: #333333;
+}
+
+
+
+ .subtotal{
+ color: #474747; 
+ font-weight: 500;
+ }
+
+ .url{
+   font-size: 12px;
+   align-items: center;
+   justify-content: center;
+   color: #848484;
+   align-items: center;
+   text-align: center;
+ }
+
+ .operacioness{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;  
+  display: flex;
+  align-items: center;
+  text-align: center;  
+  color: #5E5E5E;
+ }
